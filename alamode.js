@@ -3,6 +3,8 @@
 // Visualizations for Mode reports
 var version = "0.20";
 
+alert('Ankit is awesome')
+
 var alamode = {
 
   reportError: function(msg) {
