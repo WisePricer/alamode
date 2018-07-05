@@ -3,8 +3,6 @@
 // Visualizations for Mode reports
 var version = "0.20";
 
-alert('Ankit is awesome')
-
 var alamode = {
 
   reportError: function(msg) {
@@ -2665,7 +2663,7 @@ var alamode = {
 
     function drawThreshold(column, type, threshold, color, colorText) {
 
-      var idx = colIndex[column];
+      var idx = colIndex["DOMAIN"];
       var textColor = getTextColor(color);
 
       data.forEach(function(d,i) {
